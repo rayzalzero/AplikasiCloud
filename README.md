@@ -54,7 +54,8 @@ untuk uninstall
 	- sudo rm -r /var/log/mongodb
 	- sudo rm -r /var/lib/mongodb
 ~~~
-Jalankan MonggoDB
+Untuk tutorial MongoDB http://www.tutorialspoint.com/mongodb/index.htm
+</br>Jalankan MonggoDB
 ~~~
 root@zero:/home/rayzal/GithubFiles/OnlineLibrary/express-mongoose-mvc# mongo
 MongoDB shell version: 3.2.0
