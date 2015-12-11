@@ -54,8 +54,7 @@ untuk uninstall
 	- sudo rm -r /var/log/mongodb
 	- sudo rm -r /var/lib/mongodb
 ~~~
-Untuk tutorial MongoDB http://www.tutorialspoint.com/mongodb/index.htm
-</br>Jalankan MonggoDB
+Jalankan MonggoDB
 ~~~
 root@zero:/home/rayzal/GithubFiles/OnlineLibrary/express-mongoose-mvc# mongo
 MongoDB shell version: 3.2.0
@@ -175,3 +174,9 @@ Express server listening on port 3000
 * Hasil:
 	* http://localhost:3000/
 	* http://localhost:3000/employees => Daftar employees (menggunakan JSON)
+
+- Bahan Bacaan
+- Express
+- http://expressjs.com/en/starter/installing.html
+- MongoDB
+- http://www.tutorialspoint.com/mongodb/index.htm
