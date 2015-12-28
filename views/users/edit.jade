@@ -1,0 +1,20 @@
+a(href='/')
+  | HOME
+  br
+  a(href='/users/new') CREATE
+  br
+  a(href='/users/') SHOW DATA
+  p Edit Data Library
+        form(method='POST' action='/users/#{user.name}')
+            input(type='hidden', name='_method', value='PUT')
+            br
+            label Name      :
+            input.form-control#name(type='text' name='name', value='#{user.name}')
+            br
+            label email     :
+            input.form-control#email(type='text', name='email', value='#{user.email}')
+            br
+            label phone     :
+            input.form-control#phone(type='text', name='phone', value='#{user.phone}')
+            br
+            button.btn.btn-success.btn-lg(type='submit') Update

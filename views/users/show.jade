@@ -1,0 +1,22 @@
+a(href='/') HOME
+br
+a(href='/users/new') CREATE
+br
+a(href='/users/') SHOW DATA
+p User Library
+    table
+        tr
+            td Name: #{user.name}
+        tr
+            td Email: #{user.email}
+        tr
+            td Phone: #{user.phone}
+        tr
+            td
+                a(href='/users/#{user.name}/edit')
+                    input(type='button', value='Update')
+        tr
+            td
+                form(action='/users/#{user.name}', method='POST')
+                    input(type='hidden', name='_method', value='DELETE')
+                    button.btn.btn-default.btn-danger Delete
