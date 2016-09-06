@@ -39,6 +39,10 @@ app.get('/users', function(req, res) {
         res.render('users', {users: docs});
     });
 });
+//coba test
+app.get('/coba', function(req, res) {
+    res.render('users/test');
+});
 
 app.get('/users/new', function(req, res) {
     res.render('users/new');
