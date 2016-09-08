@@ -1,5 +1,6 @@
-a(href='/') HOME
-br
-a(href='/users/new') CREATE
-br
-a(href='/users/') SHOW DATA
+include _bootstrap
+block body
+	h1 NodeJs
+	+a-btn-primary('/') Home
+	+a-btn-info('/users/new') Create
+	+a-btn-warning('/users/') Show Data
